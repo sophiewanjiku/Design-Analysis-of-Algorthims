@@ -1,4 +1,4 @@
-
+#factorial time
 def fact2(n):
     """
 
