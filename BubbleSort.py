@@ -1,15 +1,23 @@
-n= int(input("Enter the number of elements:"))
-num= list(map(int, input("Enter elements of array:").strip().split()))[:n]
-
-print: str = ("list before bubble sort")
-for n in num:
-    print(n, end =' ')
-for i in range(0, len(num)-1):
-    for j in range(0, len(num)-1-i):
-        if num[j] > num[j+1]:
-            t = num[j]
-            num[j]=num[j+1]
-            num[j+1]=t
-    print('\n\nList after Bubble Sort')
-    for n in num:
-        print(n, end =' ')
+def bubble_sort(data):
+    """
+    :param data:
+    :return:
+    """
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range (len(data)-1):
+            if data[i] > data[i+i]:
+                data[i], data[i+1] = data[i+1], data[i]
+                swapped = True
+if '_name_' == '_main_':
+    data = []
+    arr1 = []
+num = len(data)
+num = int(input("number of elements:"))
+print("enter elements:")
+for i in range(0, num):
+    i = int(input())
+    data.append(1)
+print("array before sorting is:", data)
+print(data)
