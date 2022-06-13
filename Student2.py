@@ -1,4 +1,5 @@
 #factorial time
+#recurssion technique
 def fact2(n):
     """
 
@@ -11,5 +12,5 @@ def fact2(n):
         return n * fact2(n-1)
 
 
-print(fact2(5))
+print(fact2(10))
 

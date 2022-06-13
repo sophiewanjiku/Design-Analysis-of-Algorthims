@@ -1,3 +1,4 @@
+#constant time
 def fact (n):
     """
 
@@ -8,7 +9,7 @@ def fact (n):
     for i in range(n):
         product = product * (i+1)
         return product
-print(fact(5))
+print(fact(10))
 
     
 

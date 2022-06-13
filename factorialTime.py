@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
-x = [2, 4, 6, 8, 10, 12]
-y = [2, 2, 2, 2, 2, 2]
+x = [2, 2, 2, 2, 2]
+y = [10, 9, 8, 7, 6]
 
 
 plt.plot(x, y, 'b')
