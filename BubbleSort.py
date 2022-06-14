@@ -10,14 +10,12 @@ def bubble_sort(data):
             if data[i] > data[i+i]:
                 data[i], data[i+1] = data[i+1], data[i]
                 swapped = True
-if '_name_' == '_main_':
+if __name__ == '__main__':
     data = []
     arr1 = []
 num = len(data)
 num = int(input("number of elements:"))
-print("enter elements:")
-for i in range(0, num):
-    i = int(input())
-    data.append(1)
+num = int(input("numbers to be sorted"))
+
 print("array before sorting is:", data)
 print(data)

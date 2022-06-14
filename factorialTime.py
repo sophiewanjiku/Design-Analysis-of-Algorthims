@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+x = [ 2, 2, 2,2,2]
 y = [10, 9, 8, 7, 6]
 
 
